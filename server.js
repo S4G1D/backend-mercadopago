@@ -26,7 +26,7 @@ app.post("/create_preference", async (req, res) => {
           title,
           unit_price: Number(price),
           quantity: Number(quantity),
-          currency_id: "250.000 COP",
+          currency_id: "COP",
         },
       ],
       back_urls: {
